@@ -1,7 +1,5 @@
 apply plugin: 'com.android.application'
-apply plugin: 'com.github.dcendents.android-maven'
 
-group='com.github.JoeRoy'
 
 android {
     compileSdkVersion 26
@@ -25,13 +23,5 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:appcompat-v7:26.+'
 
-        compile files('libs/MobTools.jar')
-    compile files('libs/ShareSDK-Wechat-2.6.0.jar')
-    compile files('libs/ShareSDK-QQ-2.6.0.jar')
-    compile files('libs/ShareSDK-QZone-2.6.0.jar')
-    compile files('libs/ShareSDK-ShortMessage-2.6.0.jar')
-    compile files('libs/ShareSDK-Wechat-Moments-2.6.0.jar')
-    compile files('libs/ShareSDK-SinaWeibo-2.6.0.jar')
-    compile files('libs/ShareSDK-Wechat-Core-2.6.0.jar')
-    compile files('libs/ShareSDK-Core-2.6.0.jar')
+
 }
