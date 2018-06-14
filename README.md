@@ -10,7 +10,7 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
 	dependencies {
-	        implementation 'com.github.JoeRoy:MobShareDemo:v1.0.2'
+	        implementation 'com.github.JoeRoy:MobShareDemo:v1.0.3'
 	}
 
 
