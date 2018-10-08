@@ -27,17 +27,17 @@ android {
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
-
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'com.android.support:appcompat-v7:26.+'
-
-    compile files('libs/MobTools.jar')
-    compile files('libs/ShareSDK-Wechat-2.6.0.jar')
-    compile files('libs/ShareSDK-QQ-2.6.0.jar')
-    compile files('libs/ShareSDK-QZone-2.6.0.jar')
-    compile files('libs/ShareSDK-ShortMessage-2.6.0.jar')
-    compile files('libs/ShareSDK-Wechat-Moments-2.6.0.jar')
-    compile files('libs/ShareSDK-SinaWeibo-2.6.0.jar')
-    compile files('libs/ShareSDK-Wechat-Core-2.6.0.jar')
-    compile files('libs/ShareSDK-Core-2.6.0.jar')
+    compile files('libs/MobCommons-2018.0918.1444.jar')
+    compile files('libs/MobTools-2018.0911.1425.jar')
+    compile files('libs/SDKWrapper-2018.0801.1824.jar')
+    compile files('libs/ShareSDK-Core-3.2.1.jar')
+    compile files('libs/ShareSDK-QQ-3.2.1.jar')
+    compile files('libs/ShareSDK-QZone-3.2.1.jar')
+    compile files('libs/ShareSDK-ShortMessage-3.2.1.jar')
+    compile files('libs/ShareSDK-SinaWeibo-3.2.1.jar')
+    compile files('libs/ShareSDK-Wechat-3.2.1.jar')
+    compile files('libs/ShareSDK-Wechat-Core-3.2.1.jar')
+    compile files('libs/ShareSDK-Wechat-Moments-3.2.1.jar')
 }
