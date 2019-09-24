@@ -6,6 +6,14 @@
 5. 中间一些方法...
 6. protected void onActivityResult(int requestCode, int resultCode, Intent data) {}
 7. public void onClick(View v){}
+8. protected void onDestroy()
+
+
+</br>
+# 页面变量命名规则说明
+
+1. 统一驼峰 小写开头 比如edtCity
+2. 布局id统一用下划线间隔 edt_city
 
 </br>
 
